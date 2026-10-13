@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220">
+<defs>
+<clipPath id="t"><rect x="150" y="70" height="80" width="0"><animate attributeName="width" values="0;900;900;0" keyTimes="0;.4;.9;1" dur="6s" repeatCount="indefinite"/></rect></clipPath>
+<style>
+.mono{font-family:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.disp{font-family:Syne,'Space Grotesk','Segoe UI',Helvetica,Arial,sans-serif;font-weight:800}
+.blink{animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style></defs>
+<rect width="1200" height="220" fill="#070709"/>
+<text x="600" y="52" text-anchor="middle" class="mono" font-size="12" letter-spacing="4" fill="#8B5CF6">07 — TRANSMISSION</text>
+<g clip-path="url(#t)"><text x="600" y="120" text-anchor="middle" class="disp" font-size="44" letter-spacing="2" fill="#F4F2FA">LET&#8217;S BUILD SOMETHING UNEXPECTED.</text></g>
+<text x="600" y="176" text-anchor="middle" class="mono" font-size="12" letter-spacing="3" fill="#6B6680">TRANSMISSION CHANNEL OPEN<tspan class="blink" fill="#A78BFA"> ▍</tspan></text>
+</svg>
